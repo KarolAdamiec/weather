@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Weather
 Simple weather app.
 Client and server parts are separate npm projects under one source control root.
