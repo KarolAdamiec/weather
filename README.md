@@ -1,5 +1,6 @@
-# web-template
-Web client server starter template.
+<<<<<<< HEAD
+# Weather
+Simple weather app.
 Client and server parts are separate npm projects under one source control root.
 
 Client folder contains build tooling, source code and assets as well as a dist folder where finalized package lands.
@@ -8,25 +9,6 @@ Server folder contains build tooling, source code  as well as a dist folder wher
 The server is serving `client/dist` folder and on top of that provides additional endpoints.
 
 In order to run npm commands one needs to `cd` into server or client folder.
-
-##Setup new repository based on web-template
-
-* Create new repository on Github: https://github.com/organizations/Crowdmix/repositories/new
-
-* `git clone <new repository path>` (example: `git clone git@github.com:Crowdmix/web-artist.git`)
-
-* `cd <new repository name>` (example `cd web-artist`)
-
-* `git remote add upstream git@github.com:Crowdmix/web-template.git`
-	* (this will add a new remote and allow you to pull in changes to web-template in the future)
-
-* `git pull upstream master`
-	* (pull from web-template)
-
-* `git push origin master`
-
-* done
-
 
 ##Working on the client
 
